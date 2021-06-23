@@ -1,0 +1,31 @@
+input {
+    width: 70%;
+    border: 1px solid #000;
+    padding: 10px 20px;
+}
+
+.submit-button {
+    width: 28%;
+    padding: 10px;
+    text-align: center;
+    background-color: green;
+}
+
+button {
+    padding: 10px 20px;
+    color: white;
+    background-color: #232323;
+}
+
+.todo {
+    background-color: #f5f5f5;
+}
+
+.todo.done .content {
+    text-decoration: line-through;
+}
+
+.id, .content, .delete {
+    display: inline-block;
+    padding: 20px;
+}
