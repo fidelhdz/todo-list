@@ -1,31 +1,48 @@
 input {
-    width: 70%;
-    border: 1px solid #000;
+    width: 80%;
+    border: 1px solid #c7c7c7;
     padding: 10px 20px;
 }
 
 .submit-button {
-    width: 28%;
+    width: 20%;
     padding: 10px;
     text-align: center;
-    background-color: green;
+    border: 1px solid #c7c7c7;
+    background-color: #93f493;
 }
 
 button {
     padding: 10px 20px;
     color: white;
-    background-color: #232323;
+    border: 1px solid #606060;
+    background-color: #606060;
 }
 
 .todo {
-    background-color: #f5f5f5;
+    background-color: #fafafa;
 }
 
+/* Mark todo as completed with line-through over text */
 .todo.done .content {
     text-decoration: line-through;
 }
 
 .id, .content, .delete {
     display: inline-block;
-    padding: 20px;
+    padding: 14px;
+}
+
+.id {
+    width: 10%;
+}
+.content {
+    width: 70%;
+}
+.delete {
+    width: 20%;
+}
+
+.field {
+    margin: 30px 0;
 }
